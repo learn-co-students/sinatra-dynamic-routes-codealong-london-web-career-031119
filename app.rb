@@ -21,7 +21,8 @@ class App < Sinatra::Base
 
   get '/multiply/:nums' do
     @nums = params[:nums]
-    @nums
+    @nums = @nums.split(',')
+    "#{@nums[0]} * #{@nums[1]}"
   end
 
 
