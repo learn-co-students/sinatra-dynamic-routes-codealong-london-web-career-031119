@@ -31,6 +31,7 @@ describe 'app.rb' do
 
     it 'is not hard-coded' do
       get '/multiply/7/7'
+      # puts last_response.body
       expect(last_response.body).to include("49")
       expect(last_response.body).to_not include("36")
     end
