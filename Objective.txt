@@ -1,0 +1,16 @@
+Explain the purposes of dynamic routes
+Create dynamic routes in the controller
+Use URL params to help get the text fro mthe URL into the views 
+Show the relationship between dynamic routes and the browser URL
+
+we can take input straith from the URL 
+insteaf of a form , we can modify the content of a view at the moment
+the get Request is receieved by the contoelelr
+
+What is a route 
+it is a HTTP verb paired with a url-matching pattern 
+as the request is revered it will match that route 
+to a speciic controller action that matches the url pattern
+
+e.g we have an array 
+[] 
